@@ -4,7 +4,18 @@ console.log('Adj meg két számot!');
 let n = readline.keyIn();
 let m = readline.keyIn();
 
-const Matrix = (n, m) => {
+let arr = [];
+for (let i = 0; i < n; i++) {
+  arr.push([]);
+}
+
+for (let i = 0; i < n; i++) {
+  for (let j = 0; j < m; j++) {
+    arr[i].push('');
+  }
+}
+
+/* const Matrix = (n, m) => { //terminálban nem fut le jól
   let arr = new Array(n);
   for (let i = 0; i < n; i++) {
     arr[i] = new Array(m);
@@ -12,7 +23,7 @@ const Matrix = (n, m) => {
   return arr;
 };
 
-let arr = Matrix(n, m);
+let arr = Matrix(n, m); */
 
 const FillMatrix = (arr) => {
   let k = 0;
