@@ -1,0 +1,22 @@
+{
+  "name": "progalap-vizsga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1feladat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gydori/Progalap-vizsga.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gydori/Progalap-vizsga/issues"
+  },
+  "homepage": "https://github.com/gydori/Progalap-vizsga#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
